@@ -1,16 +1,14 @@
 env:
   repo:         "https://github.com/farrukh90/artemis.git"
   app_version:  "2.0.0"
-  project_id:   "csubrsnzorjkvdca"
+  project_id:   "terraform-project-nb17"
   repo_region:  "us-central1"
   app_name:     "artemis"
 
 
 
 name: ContinuousDelivery
-# Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
     branches: [ "master" ]
   pull_request:
